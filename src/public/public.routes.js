@@ -44,6 +44,10 @@ function routeConfig ($stateProvider) {
     .state('public.about', {
       url: '/about',
       templateUrl: 'src/public/about.html'
+    })
+    .state('public.awards', {
+      url: '/awards',
+      templateUrl: 'src/public/awards.html'
     });
 }
 })();
